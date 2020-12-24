@@ -1,0 +1,27 @@
+{
+  "name": "social-media-app-merng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "apollo-server": "^2.19.1",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
